@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="YellowButton" parent="AutoButton">
+        <item name="android:background">#ffff00</item>
+    </style>
+</resources>

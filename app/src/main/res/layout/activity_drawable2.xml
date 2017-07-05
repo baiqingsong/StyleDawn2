@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="animation-list实现多个图片动画效果"
+            android:gravity="center"
+            android:layout_margin="20dp"/>
+        <ImageView
+            android:id="@+id/iv_animation_list_wifi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/animation_list_wifi"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="animated-rotate实现如片旋转动画效果"
+            android:gravity="center"
+            android:layout_margin="20dp"/>
+        <ImageView
+            android:id="@+id/iv_animated_rotate_arrow"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/animated_rotate_arrow"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="drawable"
+        android:layout_margin="10dp"
+        android:onClick="jumpToDrawable"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="drawable2"
+        android:layout_margin="10dp"
+        android:onClick="jumpToDrawable2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="view animation"
+        android:layout_margin="10dp"
+        android:onClick="jumpToViewAnimation"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="value animator"
+        android:layout_margin="10dp"
+        android:onClick="jumpToValueAnimator"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="object animator"
+        android:layout_margin="10dp"
+        android:onClick="jumpToObjectAnimator"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="set animator"
+        android:layout_margin="10dp"
+        android:onClick="jumpToSetAnimator"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="style"
+        android:layout_margin="10dp"
+        android:onClick="jumpToStyle"/>
+</LinearLayout>
